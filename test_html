@@ -1,0 +1,9 @@
+# test_html
+# 这是一个html文档实践
+echo "# test_html" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin git@github.com:Carl-xu0927/test_html.git
+git push -u origin main
